@@ -121,9 +121,9 @@ h2.title__main {
 }
 
 .waiting {
-    height: 604px;
-    background-color: #efefef;
+    min-height: 604px;
     padding: 85px 0 75px 0;
+    background: #EFEFEF;
 }
 
 .waiting__header {
@@ -169,7 +169,7 @@ h2.title__main {
 .waiting .waiting__wrapper .waiting__item {
     width: 339px;
     text-align: center;
-} 
+}
 
 .waiting .waiting__wrapper .waiting__item {
     width: 100%;
@@ -182,4 +182,32 @@ h2.title__main {
     line-height: 21px;
     color: #4A4A4A;
     margin-top: 26px;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization__header {
+    margin-left: 391px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 12px;
+    color: #299CBD;
+}
+
+.optimization .optimization__text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-top: 25px;
+}
+
+.optimization .optimization__text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
 }
